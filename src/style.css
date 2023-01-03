@@ -1,1 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+h1 {
+  font-size: 150px;
+}
+.spades:after {
+  content: "\2660";
+  font-size: 100px;
+}
+.clubs:after {
+  content: "\2663";
+  font-size: 100px;
+}
+.diamonds:after {
+  content: "\2666";
+  font-size: 100px;
+  color: red;
+}
+
+.hearts:after {
+  content: "\2665";
+  font-size: 100px;
+  color: red;
+}
+@media (max-width: 600px) {
+  #header {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  #footer {
+    height: 30px;
+    font-size: 12px;
+  }
+}
